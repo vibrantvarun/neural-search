@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - [Semantic Field] Support the sparse two phase processor for the semantic field.
 - [Stats] Add stats for agentic query and agentic query translator processor.
+- [Agentic Search] Adds validations and logging for agentic query
 - [Performance Improvement] Introduce QueryCollectContextSpec in Hybrid Query to improve search performance.
 
 ### Bug Fixes
@@ -22,5 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Documentation
 
 ### Maintenance
+
+- Remove commons-lang:commons-lang dependency and use gradle version catalog for commons-lang3 ([#1551](https://github.com/opensearch-project/neural-search/pull/1551))
 
 ### Refactoring
